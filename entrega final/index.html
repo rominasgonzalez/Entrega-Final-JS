@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!-- CSS -->
+<link rel="stylesheet" href="style.css" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- StyleSheet -->
+  
+  <title>BurgerQueen</title>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__center container">
+      <div class="nav__logo">
+        <img src="imagenes/logo burger queen.png" alt="" width="100px">
+      </div>
+
+      <ul class="nav__list">
+        
+        <div class="cart__icon">
+          <div><img src="imagenes/cart (1).png" alt=""></div>
+          <span class="item__total">0</span>
+        </div>
+      </ul>
+
+      <div class="hamburger">
+        <svg>
+          <use xlink:href="./images/sprite.svg#icon-menu"></use>
+        </svg>
+      </div>
+    </div>
+  </nav>
+  <!-- Navigation -->
+ <!-- BANNER -->
+  <!-- Carousel HomePage -->
+  <section>
+   
+        
+                <img src="imagenes/imagenes/BANNER1.png" class="d-block w-100" alt="...">
+</section>
+
+  <!-- BANNER END -->
+  <!-- Products -->
+  <section class="products">
+    <div class="product__center">
+      <!-- Single Product -->
+      <!-- <div class="product">
+        <div class="image__container">
+          <img src="./images/product-1.jpg" alt="" />
+        </div>
+        <div class="product__footer">
+          <h1>The Original Super Donut</h1>
+            <span>
+          </div>
+          <div class="bottom">
+            <div class="btn__group">
+              <a href="#" class="btn addToCart">Comprar</a>
+            </div>
+            <div class="precio">$555</div>
+          </div>
+        </div>
+      </div> -->
+      <!-- End of Single Product -->
+    </div>
+  </section>
+
+  <section class="cart__overlay">
+    <div class="cart">
+      <span class="close__cart">
+        <svg>
+          <use xlink:href="./images/sprite.svg#icon-cross"></use>
+        </svg>
+      </span>
+      <h1>Tu carrito</h1>
+      <div class="cart__centent">
+        <!-- Cart Item -->
+        <!-- <div class="cart__item">
+          <img src="./images/product-1.jpg" alt="">
+          <div>
+            <h3>The Original Super Donut</h3>
+            <h3 class="price">$750</h3>
+          </div>
+          <div>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-angle-up"></use>
+              </svg>
+            </span>
+            <p>3</p>
+            <span>
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-angle-down"></use>
+              </svg>
+            </span>
+          </div>
+
+          <div>
+            <span class="remove__item">
+              <svg>
+                <use xlink:href="./images/sprite.svg#icon-trash"></use>
+              </svg>
+            </span>
+          </div>
+        </div> -->
+      </div>
+
+      <div class="cart__footer">
+        <h3>Total: $ <span class="cart__total">0</span></h3>
+        <button class="clear__cart btn">Borrar Carrito</button>
+      </div>
+    </div>
+  </section>
+  <!---------------------FOOTER----------------------->
+ <footer>
+  <div class="container-fluid d-flex justify-content-around">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-5">
+      <div class="footer-subsection col mb-3">
+        <div class="footer-title">
+          <h4 class="text-center">Metodos de Pago</h4>
+          <div class="footer-info d-flex justify-content-center">
+            <div class="creditcards">
+              <img src="./imagenes/creditcards.png" alt="creditcards">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-subsection col mb-3">
+        <div class="footer-title">
+          <h4 class="text-center">Atencion al cliente</h4>
+          <div class="footer-info d-flex justify-content-center">
+            <ul>
+              <li>Garantias</li>
+              <li>Terminos y condiciones</li>
+              <li>Privacidad</li>
+              <li>Politicas de cambio</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-subsection col mb-3">
+        <div class="footer-title">
+          <h4 class="text-center">Contactanos</h4>
+          <div class="footer-info d-flex justify-content-center">
+            <ul>
+              <li>Telefono oficial:<br><a href="" target="_blank">0800 111 111</a>
+              </li>
+              <li>Email: <br> contact@BurgerQueen.com</li>
+              <li>Horario de atencion <br> L - V 9am at 6pm</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="categories footer-subsection col mb-3">
+        <div class="footer-title">
+          <h4 class="text-center">Categorias</h4>
+          <div class="footer-info d-flex justify-content-center">
+            <ul>
+              <li>Nosotros</li>
+              <li>Productos</li>
+              <li>Mi cuenta</li>
+              <li>Contacto</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="subfooter">
+    <span>© 2021 BurgerQueen - All rights reserved</span>
+  </div>
+</footer>
+
+<!-- FOOTER END -->
+ <!-- jQuery -->
+ <script src="./js/jquery-3.6.0.min.js"></script>
+ <!-- main js -->
+  <script src="app.js"></script>
+  <!-- Bootstrap Js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
