@@ -1,0 +1,78 @@
+{
+    "status": "success",
+    "items": [{
+            "id": 1,
+            "title": "La clasica",
+            "price": 500,
+            "image": "./imagenes/imagenes/clasica-3.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Clasica 2",
+            "price": 500,
+            "image": "./imagenes/imagenes/jamon-queso-y-tomate-1.jpg"
+        },
+        {
+            "id": 3,
+            "title": "La especial",
+            "price": 500,
+            "image": "./imagenes/imagenes/criolla-especial.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Choriburguesa",
+            "price": 500,
+            "image": "./imagenes/imagenes/choriburguesa-2.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Cordero",
+            "price": 500,
+            "image": "./imagenes/imagenes/cordero.jpg"
+
+        },
+        {
+            "id": 6,
+            "title": "Cerdo",
+            "price": 500,
+            "image": "./imagenes/imagenes/cerdo.jpg"
+
+        },
+        {
+            "id": 7,
+            "title": "Pollo",
+            "price": 600,
+            "image": "./imagenes/imagenes/pollo.jpg"
+        },
+        {
+            "id": 8,
+            "title": "Doble panceta",
+            "price": 530,
+            "image": "./imagenes/imagenes/doble-cheddar-doble-panceta.jpg"
+        },
+        {
+            "id": 9,
+            "title": "Completa",
+            "price": 799,
+            "image": "./imagenes/imagenes/completa.jpg"
+        },
+        {
+            "id": 10,
+            "title": "La demente",
+            "price": 600,
+            "image": "./imagenes/imagenes/la-demente.jpg"
+        },
+        {
+            "id": 11,
+            "title": "Lentejas y vegetales",
+            "price": 650,
+            "image": "./imagenes/imagenes/lentejas-y-vegetales.jpg"
+        },
+    {
+        "id": 12,
+        "title": "Quinoa y semillas",
+        "price": 650,
+        "image": "./imagenes/imagenes/quinoa-y-semillas.jpg"
+    }
+] 
+}
